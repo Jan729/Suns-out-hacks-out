@@ -8,7 +8,8 @@ public class Dialog : MonoBehaviour
     public TextMeshProUGUI textDisplay;
     public string[] sentences;
     private int index;
-    public float typingSpeed;
+    public float typingSpeed = 0.02f;
+    public GameObject continueButton;
     
     // Start is called before the first frame update
     void Start()
@@ -25,13 +26,15 @@ public class Dialog : MonoBehaviour
     }
 
     public void NextSentence(){
-
+        
+        continueButton.SetActive(false);
         if(index < sentences.Length - 1) {
             index++;
             textDisplay.text = "";
             StartCoroutine(Type());
         }else{
             textDisplay.text = "";
+            continueButton.SetActive(false);
         }
     }
 
@@ -42,6 +45,8 @@ public class Dialog : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(textDisplay.text == sentences[index]) {
+            continueButton.SetActive(true);
+        }
     }
 }
