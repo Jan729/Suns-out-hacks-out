@@ -1223,7 +1223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inRange: 0
-  levelName: Room1
+  levelName: Lobby
 --- !u!61 &1758982294
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1360,7 +1360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12b3c043e35b2e04c92d7cd0a88de174, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Room1
+  sceneName: Lobby
 --- !u!4 &1790822874
 Transform:
   m_ObjectHideFlags: 0
