@@ -17,11 +17,7 @@ public class ChangeScene : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(inRange) {
-            if(Input.GetMouseButtonDown(0)) {
-                SceneManager.LoadScene(levelName);
-            }
-        }
+        
     }
 
     void OnMouseOver() {
@@ -30,5 +26,11 @@ public class ChangeScene : MonoBehaviour
 
     void OnMouseExit() {
         inRange = false;
+    }
+
+    void OnMouseDown() {
+        if(inRange) {
+                SceneManager.LoadScene(levelName);
+        }
     }
 }
