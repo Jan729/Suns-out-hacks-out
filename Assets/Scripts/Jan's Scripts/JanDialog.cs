@@ -12,6 +12,8 @@ public class JanDialog : MonoBehaviour
     public GameObject textBox;
     public GameObject emilyIcon;
     public GameObject clue;
+    public GameObject backButton;
+
     private int index = 0;
 
     public void StartDialog()
@@ -21,6 +23,7 @@ public class JanDialog : MonoBehaviour
         textBox.SetActive(true);
         emilyIcon.SetActive(true);
         clue.SetActive(false);
+        backButton.SetActive(false);
     }
 
     public void Start()
@@ -61,6 +64,8 @@ public class JanDialog : MonoBehaviour
             continueButton.SetActive(false);
             textBox.SetActive(false);
             emilyIcon.SetActive(false);
+            clue.SetActive(true);
+            backButton.SetActive(true);
             textDisplay.text = "";
         }
     } 
