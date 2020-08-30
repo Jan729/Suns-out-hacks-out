@@ -12,14 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Room1.unity
     guid: 909285e8c04d71f40b8cf76f50f1aebf
   - enabled: 1
-<<<<<<< Updated upstream
     path: Assets/Scenes/BuildingFront.unity
     guid: a2f02954f6376d04fbee43c2c60bbf4e
-=======
+  - enabled: 1
     path: Assets/Scenes/Lobby.unity
     guid: 96b85daf448f6054d81384a95cc6efb4
-  - enabled: 1
-    path: Assets/Scenes/FunkyRoom.unity
-    guid: 7bdcf609999568f46beb9f91974da34e
->>>>>>> Stashed changes
   m_configObjects: {}
