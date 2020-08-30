@@ -1094,7 +1094,14 @@ MonoBehaviour:
   textDisplay: {fileID: 77448849}
   sentences:
   - 
-  - Fuck Off
+  - My name is Snailbert Sr. the IV
+  - Snailington was a dear friend of mine. We would go horseback riding at the country
+    club every week
+  - He generously helped me out whenever I fell into my bad polo betting habits.
+  - "But I\u2019m a changed snail now! Haven\u2019t gambled in years. "
+  - "I never expected last night\u2019s dinner party to be the last time I ever saw
+    him "
+  - '**sniffles and dabs eyestalks with handkerchief** '
   typingSpeed: 0.001
   continueButton: {fileID: 1843651598}
 --- !u!4 &1484075540
