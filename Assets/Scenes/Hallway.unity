@@ -557,7 +557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aad750092d6829c4496339046c045e78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Study
+  sceneName: Kitchen
 --- !u!114 &297303890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1606,7 +1606,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aad750092d6829c4496339046c045e78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Study
+  sceneName: Bedroom
 --- !u!114 &1424439852
 MonoBehaviour:
   m_ObjectHideFlags: 0
