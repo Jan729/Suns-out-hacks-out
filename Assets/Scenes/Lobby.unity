@@ -166,10 +166,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1730464692}
   sentences:
-  - 'Cop: Aw jeez!!!'
-  - 'Cop: This is bad...'
-  - 'Cop: I couldn''t even eat my donut.'
-  - 'Cop: You know whoever did this.'
+  - 'Cop: Hello, you must be Emily. '
+  - 'Cop: Snailington was found dead this morning. '
+  - 'Cop: Death by salt. '
+  - 'Cop: Your reputation as a detective precedes you, Emily'
+  - 'Cop: Feel free to investigate the house on the left.'
+  - 'Cop: There are four suspects, guests from a dinner party last night.'
+  - 'Cop: They''re in the ballroom to the right, we''ve already interviewed them
+    so feel free to as well if you''d like.'
+  - 'Cop: They claim they stayed the night since it was too late to crawl home.'
+  - 'Cop: Aw jeez!! '
+  - 'Cop: I couldn''t even finish my donut'
+  - 'Cop: You know whoever did this'
   - 'Cop: Will face justice I tell ya. Justice!'
   typingSpeed: 0.001
   continueButton: {fileID: 1033959064}
@@ -1820,7 +1828,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 0.4760973, b: 0, a: 1}
+  m_fontColor: {r: 0.9811321, g: 0.7251002, b: 0.49519405, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

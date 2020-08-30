@@ -38,4 +38,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Suspect3.unity
     guid: 5594b18132a2d7f4ab595c1e8ab58bfe
+    path: Assets/Scenes/Kitchen.unity
+    guid: 6f3ad30a675ba324494ac01ea0d93856
+  - enabled: 1
+    path: Assets/Scenes/Bedroom.unity
+    guid: 6888760156f8178439f249b0b3e71e16
   m_configObjects: {}
