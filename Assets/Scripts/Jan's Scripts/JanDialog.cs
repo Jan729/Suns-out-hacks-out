@@ -9,10 +9,8 @@ public class JanDialog : MonoBehaviour
     public string[] sentences;
     public float typingSpeed = 0.02f;
     public GameObject continueButton;
-    public GameObject textBox;
     public GameObject emilyIcon;
     public GameObject clue;
-    public GameObject backButton;
 
     private int index = 0;
 
@@ -20,16 +18,13 @@ public class JanDialog : MonoBehaviour
     {
         Debug.Log("starting dialog...");
         StartCoroutine(Type());
-        textBox.SetActive(true);
         emilyIcon.SetActive(true);
         clue.SetActive(false);
-        backButton.SetActive(false);
     }
 
     public void Start()
     {
         continueButton.SetActive(false);
-        textBox.SetActive(false);
         emilyIcon.SetActive(false);
     }
     
@@ -62,10 +57,8 @@ public class JanDialog : MonoBehaviour
         } else
         {
             continueButton.SetActive(false);
-            textBox.SetActive(false);
             emilyIcon.SetActive(false);
             clue.SetActive(true);
-            backButton.SetActive(true);
             textDisplay.text = "";
         }
     } 

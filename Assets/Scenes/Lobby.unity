@@ -2313,10 +2313,7 @@ MonoBehaviour:
   inRange: 0
   start: 1
   arrow: {fileID: 2070408379}
-  levelName: Room1
-  Interactables:
-  - {fileID: 1289499295}
-  - {fileID: 228470299}
+  levelName: Hallway
 --- !u!61 &2070408382
 BoxCollider2D:
   m_ObjectHideFlags: 0
