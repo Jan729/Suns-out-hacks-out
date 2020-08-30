@@ -682,9 +682,14 @@ MonoBehaviour:
   textDisplay: {fileID: 1091731453}
   sentences:
   - 
-  - I have boogers
-  - I have more boogers
-  - I ate them
+  - My Name is Shelldon Plankton
+  - "Ever since Snailington\u2019s Crusty Snail surpassed my Snail Bucket restaurant
+    across town,"
+  - Snailington and I have been friendly business competitors and often met for dinners.
+  - "I\u2019ve been trying to get Snailington\u2019s secret formula for his Snail
+    Patties forever!"
+  - "But don\u2019t get me wrong, I feel devastated by this tragedy..."
+  - "it\u2019s just not the same without him. "
   typingSpeed: 0.001
   continueButton: {fileID: 1905643306}
 --- !u!1 &1091731450
@@ -999,7 +1004,7 @@ MonoBehaviour:
   inRange: 0
   start: 1
   arrow: {fileID: 1632478804}
-  levelName: Lobby
+  levelName: LoseScreen
   Interactables: []
 --- !u!61 &1688833747
 BoxCollider2D:

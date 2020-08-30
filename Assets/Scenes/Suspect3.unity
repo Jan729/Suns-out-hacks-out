@@ -613,8 +613,14 @@ MonoBehaviour:
   textDisplay: {fileID: 447101671}
   sentences:
   - 
-  - I'm hot and I know it
-  - I'm a Qween
+  - "I'm Slugdonna. I haven\u2019t seen my father, Snailington, for years. "
+  - "We\u2019ve grown apart ever since I left to pursue my dreams of becoming a celebrity
+    snail singer.  "
+  - 'When I fell into debt, I decided to attend the dinner party '
+  - in an attempt to regain favour with my father.
+  - "Of course, now that\u2019s never going to happen..."
+  - 'Emily, you have to help us! '
+  - '**starts sobbing hysterically**'
   typingSpeed: 0.001
   continueButton: {fileID: 262824946}
 --- !u!4 &476297849
@@ -746,7 +752,7 @@ MonoBehaviour:
   inRange: 0
   start: 1
   arrow: {fileID: 1803257125}
-  levelName: Lobby
+  levelName: LoseScreen
   Interactables: []
 --- !u!212 &1148144519
 SpriteRenderer:
