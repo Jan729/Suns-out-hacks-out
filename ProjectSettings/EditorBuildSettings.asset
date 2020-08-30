@@ -15,15 +15,18 @@ EditorBuildSettings:
     path: Assets/Scenes/BuildingFront.unity
     guid: a2f02954f6376d04fbee43c2c60bbf4e
   - enabled: 1
+    path: Assets/Scenes/LivingRoom.unity
+    guid: 6342815f0599f9545a529a83dca1b18d
+  - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: 96b85daf448f6054d81384a95cc6efb4
+  - enabled: 1
+    path: Assets/Scenes/FunkyRoom.unity
+    guid: 7bdcf609999568f46beb9f91974da34e
+  - enabled: 1
     path: Assets/Scenes/Hallway.unity
     guid: c8d4cf83ad0ff4f4ab4e8dae38b5f889
   - enabled: 1
     path: Assets/Scenes/Study.unity
     guid: 39ce02c74b98430499a1ebc2fc9ab53e
-  - enabled: 1
-    path: Assets/Scenes/Lobby.unity
-    guid: 96b85daf448f6054d81384a95cc6efb4
-  - enabled: 1
-    path: Assets/Scenes/LivingRoom.unity
-    guid: 6342815f0599f9545a529a83dca1b18d
   m_configObjects: {}
