@@ -12,23 +12,38 @@ public class DialogueManager : MonoBehaviour
     public GameObject continueButton;
     public GameObject StartTrigger;
     public bool start = true;
+    public SpriteRenderer eventImage;
+    public GameObject otherInteractable;
 
     // Start is called before the first frame update
     void Start()
     {
         continueButton.SetActive(false);
+        eventImage.enabled = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(StartTrigger.GetComponent<DetectAndrew>().inRange) {
-            if(Input.GetMouseButtonDown(0)) {
-                if(start) {
-                    start = false;
-                    StartCoroutine(Type());
+        if(otherInteractable.GetComponent<DialogueManager>().start) {
+            if(StartTrigger.GetComponent<DetectAndrew>().inRange) {
+                if(Input.GetMouseButtonDown(0)) {
+                    if(start) {
+                        start = false;
+                        StartCoroutine(Type());
+                    }
                 }
             }
+        }
+
+        if(otherInteractable.GetComponent<DialogueManager>().start && start) {
+            if(StartTrigger.GetComponent<DetectAndrew>().inRange) {
+                eventImage.enabled = true;
+            }else {
+                eventImage.enabled = false;
+            }
+        }else {
+            eventImage.enabled = false;
         }
 
         if(textDisplay.text == sentences[index]) {
