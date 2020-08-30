@@ -778,6 +778,41 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -46.482002}
+--- !u!1 &1097006527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1097006528}
+  m_Layer: 5
+  m_Name: DummyObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1097006528
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097006527}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1574764206}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1334527347
 GameObject:
   m_ObjectHideFlags: 0
@@ -1006,6 +1041,7 @@ RectTransform:
   - {fileID: 1979059245}
   - {fileID: 545614480}
   - {fileID: 394966326}
+  - {fileID: 1097006528}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1550,6 +1586,16 @@ PrefabInstance:
       propertyPath: continueButton
       value: 
       objectReference: {fileID: 545614479}
+    - target: {fileID: 619341530640088165, guid: 62e769d3c004bfc4b812f08fe00ed6cf,
+        type: 3}
+      propertyPath: emilyIcon
+      value: 
+      objectReference: {fileID: 1097006527}
+    - target: {fileID: 619341530640088165, guid: 62e769d3c004bfc4b812f08fe00ed6cf,
+        type: 3}
+      propertyPath: clue
+      value: 
+      objectReference: {fileID: 1097006527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 62e769d3c004bfc4b812f08fe00ed6cf, type: 3}
 --- !u!1001 &1757830778300674567
