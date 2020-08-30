@@ -166,11 +166,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1730464692}
   sentences:
-  - 'Cop: Hello'
-  - Test
-  - ' 1 '
-  - test 2
-  - test 3
+  - 'Cop: Aw jeez!!!'
+  - 'Cop: This is bad...'
+  - 'Cop: I couldn''t even eat my donut.'
+  - 'Cop: You know whoever did this.'
+  - 'Cop: Will face justice I tell ya. Justice!'
   typingSpeed: 0.001
   continueButton: {fileID: 1033959064}
   StartTrigger: {fileID: 1392565467}
@@ -660,11 +660,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1730464692}
   sentences:
-  - Oh Emily!
-  - I'm afraid you haven't heard
-  - Snailington..
-  - He's been salted
-  - Happened right here
+  - 'Bell Boy: Oh Emily!'
+  - 'Bell Boy: I''m afraid you haven''t heard.'
+  - 'Bell Boy: Snailington..'
+  - 'Bell Boy: He''s been salted.'
+  - 'Bell Boy: Happened right here!'
   typingSpeed: 0.001
   continueButton: {fileID: 2083206182}
   StartTrigger: {fileID: 1925258859}
@@ -1286,7 +1286,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1503372851
+  m_SortingLayerID: -1998597967
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b92e827516ade4e45961942398775295, type: 3}
@@ -1368,7 +1368,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 345193377
+  m_SortingLayerID: 1048916545
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1d4bceea3b02b8643ade40eabaf34798, type: 3}
@@ -2314,6 +2314,9 @@ MonoBehaviour:
   start: 1
   arrow: {fileID: 2070408379}
   levelName: Hallway
+  Interactables:
+  - {fileID: 1289499295}
+  - {fileID: 228470299}
 --- !u!61 &2070408382
 BoxCollider2D:
   m_ObjectHideFlags: 0
