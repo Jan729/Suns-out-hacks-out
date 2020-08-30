@@ -29,4 +29,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Study.unity
     guid: 39ce02c74b98430499a1ebc2fc9ab53e
+  - enabled: 1
+    path: Assets/Scenes/Suspect1.unity
+    guid: a4014b8369ccb4945b6bb74c9fffc833
+  - enabled: 1
+    path: Assets/Scenes/Suspect2.unity
+    guid: b205490c245c59d44bee868aca26c0e1
+  - enabled: 1
+    path: Assets/Scenes/Suspect3.unity
+    guid: 5594b18132a2d7f4ab595c1e8ab58bfe
   m_configObjects: {}
